@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\code_proj\\cpp_\\learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD268BD0-595C-451C-97C8-45DEF21EA85E}|learning.vcxproj|C:\\code_proj\\cpp_\\learning\\learning.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD268BD0-595C-451C-97C8-45DEF21EA85E}|learning.vcxproj|solutionrelative:learning.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "learning.cpp",
+              "DocumentMoniker": "C:\\code_proj\\cpp_\\learning\\learning.cpp",
+              "RelativeDocumentMoniker": "learning.cpp",
+              "ToolTip": "C:\\code_proj\\cpp_\\learning\\learning.cpp*",
+              "RelativeToolTip": "learning.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-22T15:36:29.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

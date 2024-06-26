@@ -8,7 +8,7 @@ int main(){
     double n2;
     double result;
 
-    cout << "hypotenuse_calculator-----------------------"
+    cout << "hypotenuse_calculator-----------------------";
 
     cout << "enter base: ";
     cin >> n1;
@@ -19,7 +19,7 @@ int main(){
     result = sqrt(pow(n1,2) + pow(n2,2));
     cout << "the result is: " << result;
 
-    cout << "_____________________-----------------------"
+    cout << "_____________________-----------------------";
 
     return 0;
 }

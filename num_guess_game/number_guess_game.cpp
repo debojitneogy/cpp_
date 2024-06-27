@@ -6,7 +6,7 @@ using std::cin;
 
 int main()
 {
-    cout << "num_guess_game------------------------";
+    cout << "num_guess_game------------------------\n";
 
     srand(time(NULL));
     int R_num = (rand() % 100) + 1;

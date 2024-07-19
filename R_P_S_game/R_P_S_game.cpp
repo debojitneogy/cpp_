@@ -151,9 +151,6 @@ int main()
         int win = check_winner(player,comp);
         switch (win)
         {
-        case 0:
-            score--;
-            break;
         case 1:
             score++;
             break;

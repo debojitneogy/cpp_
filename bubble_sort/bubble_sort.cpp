@@ -23,8 +23,8 @@ void sort(int list[],int size)
 
 int main()
 {
-    const int size = 5;
-    int debug[size] = {1,3,4,2,5};
+    int debug[] = {1,3,4,2,5,9,7,4,5,6,1,3};
+    const int size = sizeof(debug)/sizeof(debug[0]);
 
     sort(debug,size);
 

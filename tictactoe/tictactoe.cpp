@@ -5,6 +5,18 @@ using std::cin;
 
 char spaces[] = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
 
+bool isdraw()
+{
+    for (int i = 0; i < 9; i++)
+    {
+        if (spaces[i] == ' ')
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
 void DisplayGrid(char *spaces)
 {
     //cout << "   |   |   \n";
@@ -24,26 +36,6 @@ void DisplayGrid(char *spaces)
     //cout << "   |   |   \n";
 
     cout << "_______________________\n\n";
-}
-
-bool IsDraw(char *spaces)
-{
-    int count;
-    for (int i; i < 9; i++)
-    {
-        if (spaces[i] == ' ')
-        {
-            count++;
-        }
-    }
-    if (count == 9)
-    {
-        return false;
-    }
-    else if (count < 9)
-    {
-        return true;
-    }
 }
 
 void PlayerMove(char *spaces)
@@ -72,6 +64,10 @@ void CompMove(char *spaces)
         }
         else
         {
+            if (isdraw())
+            {
+                break;
+            }
             continue;
         }
     }
@@ -189,7 +185,12 @@ int main()
         DisplayGrid(spaces);
         CompMove(spaces);
         DisplayGrid(spaces);
-        if (WinCheck(spaces) == 1)
+        if (isdraw())
+        {
+            cout << "Draw!";
+            break;
+        }
+        else if (WinCheck(spaces) == 1)
         {
             cout << "Player wins!";
             break;

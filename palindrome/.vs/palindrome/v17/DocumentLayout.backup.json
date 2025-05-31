@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\code_proj\\palindrome\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAC4FDF-1B74-49FA-898D-075957DC901A}|palindrome.vcxproj|C:\\code_proj\\palindrome\\palindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDAC4FDF-1B74-49FA-898D-075957DC901A}|palindrome.vcxproj|solutionrelative:palindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "palindrome.cpp",
+              "DocumentMoniker": "C:\\code_proj\\palindrome\\palindrome.cpp",
+              "RelativeDocumentMoniker": "palindrome.cpp",
+              "ToolTip": "C:\\code_proj\\palindrome\\palindrome.cpp",
+              "RelativeToolTip": "palindrome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-31T13:01:18.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

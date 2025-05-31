@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/code_proj/cpp_/file_test",
-      "program": "c:/code_proj/cpp_/file_test/build/Debug/outDebug",
+      "cwd": "c:/code_proj/cpp_/palindrome",
+      "program": "c:/code_proj/cpp_/palindrome/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
